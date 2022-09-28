@@ -1,0 +1,141 @@
+﻿body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    /*background-position: center;*/
+}
+
+p {
+    text-align: center;
+    font-family: Fantasy;
+    font-size: 25px;
+}
+
+#txtMsg:focus {
+    outline: none;
+}
+
+#chat {
+    position: absolute;
+    border-style: solid;
+    border-width: 3px;
+    left: 500px;
+    top: 0px;
+    overflow: scroll;
+    border-radius: 5px;
+    width: 500px;
+    height: 90%;
+}
+
+#user {
+    position: absolute;
+    border-style: solid;
+    border-width: medium;
+    left: 1050px;
+    bottom: 8px;
+    overflow: scroll;
+    width: 300px;
+    height: 98%;
+}
+
+#lblTalkToWho {
+    position: absolute;
+    border-style: solid;
+    border-width: medium;
+    bottom: 0px;
+    height: 60px;
+    left: 495px;
+    width: auto;
+    background: #333;
+    border-width: 3px;
+    padding: 0 1rem;
+    flex-grow: 1;
+    border-radius: 5px;
+    margin: 0.25rem;
+    outline: none;
+    color: #fff;
+}
+
+#txtMsg {
+    position: absolute;
+    left: 565px;
+    bottom: 0px;
+    height: 50px;
+    width: 300px;
+    border-width: 3px;
+    flex-grow: 1;
+    border-radius: 5px;
+    margin: 0.25rem;
+}
+
+#btnSend {
+    position: absolute;
+    left: 910px;
+    height: 60px;
+    width: 100px;
+    bottom: 0px;
+    background: #333;
+    border: none;
+    padding: 0 1rem;
+    margin: 0.25rem;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+}
+
+#my {
+    right: 500px;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.chatOdd img {
+    float: left;
+}
+
+.chatEven img {
+    float: right;
+}
+
+.textLeft, .textRight {
+    height: 30px;
+    margin: 20px 80px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.textLeft {
+    background-color: lightblue;
+    text-align: right;
+}
+
+.textRight {
+    background-color: lightpink;
+}
+
+.triAngleToLeft {
+    border-color: transparent lightpink transparent transparent;
+    border-style: solid;
+    border-width: 10px;
+    height: 0px;
+    width: 0px;
+    float: left;
+    margin-top: 10px;
+}
+
+.triAngleToRight {
+    border-color: transparent transparent transparent lightblue;
+    border-style: solid;
+    border-width: 10px;
+    height: 0px;
+    width: 0px;
+    float: right;
+    margin-top: 10px;
+}
